@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-eq uiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu segundo programa JS</title>
+    <style>
+        /*Corpo do Programa (Onde irá modificar o estilo)*/
+        body {
+            background-color: rgb(31, 31, 31);
+            color: aliceblue;
+            font: normal 15pt Arial;
+        }
+        h1 {
+            color: rgb(0, 204, 231);
+        }
+    </style>
+</head>
+<body>
+    <h1>Seja Bem Vindo(a)!</h1>
+    <p>
+        Aqui é um parágrafo para se escrever o que quiser...
+        Incrementando o primeiro código...
+    </p>
+    <p>
+        Neste incremento foi para perguntar o nome e utilizalo.
+    </p>
+    <script>
+        //parte de codação (JavaScript)
+        //window.confirm('Clique em "OK" para certificar-mos que você não é um robô.') //ok-cancel
+        var name = window.prompt('Insira seu nome: ') //pergunta
+        //window.alert('É um prazer te conhecer, ' + name + '!') //notificação
+        //or                                  // + significa concatenar
+        window.alert(`É um prazer te conhecer, ${name} !`) //notificação
+        
+    </script>
+</body>
+</html>

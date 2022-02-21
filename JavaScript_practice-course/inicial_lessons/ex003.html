@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-eq uiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu terceiro programa JS</title>
+    <style>
+        /*Corpo do Programa (Onde irá modificar o estilo)*/
+        body {
+            background-color: rgb(31, 31, 31);
+            color: aliceblue;
+            font: normal 15pt Arial;
+        }
+        h1 {
+            color: rgb(0, 204, 231);
+        }
+    </style>
+</head>
+<body>
+    <h1>Seja Bem Vindo(a)!</h1>
+    <p>
+        Aqui é um parágrafo para se escrever o que quiser...
+        Incrementando o segundo código...
+    </p>
+    <p>
+        Neste incremento iremos utilizar variáveis numéricas e contas
+    </p>
+    <script>
+        //var number1 = Number.parseFloat(window.prompt('Insira um número:')) //string  ...  //real
+        //var number2 = Number.parseFloat(window.prompt('Insira outro número:')) //string  ...  //real
+        //or
+        var number1 = Number(window.prompt('Insira um número:')) //string  ...  //real
+        var number2 = Number(window.prompt('Insira outro número:')) //string  ...  //real
+        var total = number1 + number2
+        //window.alert('A soma desses número é: '+ total + '!')
+        //or
+        window.alert(`A soma desses número é: ${total}!`)
+        //utilização da crase
+    </script>
+</body>
+</html>
